@@ -1,0 +1,5 @@
+# Ignored types
+*test*
+pages/download/*
+pages/error*
+**/accessCode.php

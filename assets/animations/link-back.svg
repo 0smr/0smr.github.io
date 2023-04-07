@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 100% 100%">
+<style>
+    rect {
+        fill: none;
+        x: 2%; y: 2%; rx: 5%;
+        width: 96%; height: 96%;
+        stroke: #e88766; stroke-width: 4%;
+        stroke-dasharray: 180 60;
+        stroke-dashoffset: 1230;
+        animation: anim 5s infinite ease;
+        opacity: .5;
+    }
+    rect:nth-of-type(2) { animation-delay: -.1s; }
+    rect:nth-of-type(3) { animation-delay: -.2s; }
+    @keyframes anim {
+        0%{stroke-dashoffset: 30;}
+        100%{stroke-dashoffset: 1230;}
+    }
+</style>
+<rect/><rect/>
+</svg>
